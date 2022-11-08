@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: darkred;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    padding: 12px;
+}
+
+ul li {
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+ul li a {
+    text-decoration: none;
+} 
+
+li a{
+    color : white;
+}
+
+li a:hover {
+    color: rgb(243, 157, 157);
+}
+
+.head1 img {
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+main {
+    background-image: url('library.jpeg');
+    background-size: 100vw 97vh;
+    background-repeat: no-repeat;
+    height: 93vh;
+}
+
+.name {
+    color: white;
+    font-size: 10vh;
+    position: relative;
+    top: 10vh;
+    padding: 0 10vw;
+}
+
+.tag {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 12vh;
+    padding: 0 13vw;
+}
+
+footer {
+    height: 10vh;
+}
+
+.foot {
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width : 500px) {
+    .name {
+        font-size: 6vh;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .tag {
+        font-size: 12px;
+        padding: 0 10vw;
+    }
+}
+
+ol {
+    padding: 10px;
+}
+
+.tc {
+    padding: 10px;
+}
+
+.member {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    padding: 0 5px;
+}
+
+.box {
+    background-color: rgb(246, 186, 186);
+    border: 2px solid black;
+}
+
+.display {
+    padding: 10px;
+}
+/* Contact */
+.contact_head {
+    height : 20vh;
+    background-color: brown;
+    
+}
+
+.Contact_head1{
+    color : white;
+    font-size: 40px;
+    position: relative;
+    top : 30px;
+    text-align: center; 
+}
+
+.Contact_head2{
+    color : white;
+    font-size: 15px;
+    position: relative;
+    top : 30px;
+    text-align: center;
+}
+
+input{
+    height : 35px;
+    width : 40vw; 
+}
+
+ button{
+    position : relative;
+    top:30px;
+    left:8px;
+    background-color: brown;
+    color:white;
+    width:80px;
+    height: 40px;
+}
+
+.pp{
+    position: relative;
+    top : 40px;
+ 
+}   
+.contact_container{
+    display : grid;
+    grid-gap: 10px 50px;
+    position: relative;
+    top:20px;
+}
+
+lable{
+    font-size: 20px;
+}
+
+@media screen and (max-width : 500px) {
+    input{
+        height : 35px;
+    }
+}
+/* about */
+
+.about_head {
+    height : auto;
+    color : black;
+    font-size: 72px;
+    position: relative;
+    top : 30px;
+    text-align: center;   
+}
+ .about_head2 img {
+    height : 140px;
+    width:140px;
+    border : 2px solid black;
+    border-radius: 50%;
+    padding : 20px;
+    margin : 10px;
+} 
+
+.about_head3{
+    font-size: 30px;
+    font-weight: bold;
+}
